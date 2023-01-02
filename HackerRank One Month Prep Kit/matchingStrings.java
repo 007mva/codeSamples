@@ -1,4 +1,9 @@
-   public static List<Integer> matchingStrings(List<String> strings, List<String> queries) {
+/*
+There is a collection of input strings and a collection of query strings. 
+For each query string, determine how many times it occurs in the list of input strings. Return an array of the results.
+*/
+
+public static List<Integer> matchingStrings(List<String> strings, List<String> queries) {
     Map<String, Integer> map= new HashMap();
     for(int i=0;i<strings.size();i++){
         String s=strings.get(i);
