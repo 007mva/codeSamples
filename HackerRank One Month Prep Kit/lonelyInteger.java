@@ -1,4 +1,8 @@
-    public static int lonelyinteger(List<Integer> a) {
+/* 
+Given an array of integers, where all elements but one occur twice, find the unique element.
+*/
+
+public static int lonelyinteger(List<Integer> a) {
     // Write your code here
     Set<Integer> s=new HashSet();
     int sum=0, sum2=0;
